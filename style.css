@@ -1,0 +1,73 @@
+.header{
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	background-color: lightblue;
+}
+
+.label{
+	float: left;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	margin-left: 5px;
+	margin-right: -1px;
+	width: 8%;
+	height: 18px;
+	background-color: lightgray;
+	text-align: left;
+}
+
+.box{
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	width: 50%;
+	height: 20px;
+}
+
+.area{
+	margin-top: 0px;
+	height: 92px;
+	width: 50%;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+}
+
+.boutton{
+	margin-left: 0%;
+}
+
+.tab{
+	width: 95%;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+}
+
+.bout{
+	float: right;
+}
+
+th{
+	text-transform: capitalize;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+tr:nth-child(odd) {background-color: #dcebed;}
+
+td, th{
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	text-align: left;
+}
+
+footer{
+	width: 100%;
+    text-align: center;
+    background-color: dimgray;
+    position: fixed;
+    bottom: 0;
+}
